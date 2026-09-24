@@ -1,0 +1,233 @@
+div.container-link-button {
+  margin-right: 0.5rem;
+}
+
+table.table-cv {
+  background-color: transparent !important;
+}
+
+table.table-cv td,
+table.table-cv th {
+  padding: 1px;
+}
+
+p.location {
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+i.iconlocation {
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+}
+
+i.iconinstitution {
+  margin-right: 0.3rem;
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+}
+
+i.icondepartment {
+  margin-right: 0.3rem;
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+}
+
+table.institution {
+  margin-bottom: 1rem;
+}
+
+td.department {
+  font-size: 0.8rem;
+}
+
+div.container-links,
+div.container-pdf {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+div.container-links {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+div.list-groups {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+div.list-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+td.list-group-category {
+  margin-bottom: 0.5rem;
+  color: var(--global-theme-color);
+}
+
+td.list-group-category-icon {
+  width: 1.4rem;
+  padding-right: 0.4rem;
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+}
+
+td.list-group-name,
+td.list-group-level {
+  font-size: 0.8rem;
+}
+
+td.list-group-level,
+td.list-group-school,
+p.list-group-time,
+td.list-group-link {
+  padding-left: 0.5rem;
+}
+
+td.list-group-school,
+p.list-group-time {
+  font-size: 0.7rem;
+}
+
+td.list-group-school {
+  text-align: center;
+}
+
+a.anchor {
+  position: relative;
+  top: -50px;
+  display: block;
+  visibility: hidden;
+}
+
+ul.timeline {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul.timeline li {
+  position: relative;
+  min-height: 2.2rem;
+  color: var(--global-text-color);
+  list-style-position: inside;
+}
+
+span.badge-toc {
+  display: inline-block;
+  inline-size: fit-content;
+  padding: 0.125rem 0.5rem;
+  color: var(--global-bg-color);
+  font-weight: 700 !important;
+  background-color: var(--global-theme-color);
+  border-radius: 0.125rem;
+}
+
+ul.timeline li::before {
+  position: absolute;
+  top: -0.5rem;
+  left: 2px;
+  width: 1px;
+  min-height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  content: "";
+  background: var(--global-text-color);
+}
+
+.cv > .card {
+  margin-top: 2.75rem !important;
+  padding: 0 !important;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.cv > .card:first-child {
+  margin-top: 0 !important;
+}
+
+.cv .card-title {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.cv .list-group {
+  padding-left: 0;
+  list-style: none;
+}
+
+.cv .list-group-item {
+  padding: 0.75rem 0 1.5rem;
+  background: transparent;
+  border: 0;
+}
+
+.cv .list-group-item + .list-group-item {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.cv .date-column {
+  flex: 0 0 24%;
+  max-width: 24%;
+  padding-right: 1.25rem;
+  text-align: left !important;
+}
+
+.cv .date-column + div {
+  flex: 0 0 76%;
+  max-width: 76%;
+}
+
+.cv .date-column .badge {
+  min-width: 0 !important;
+  padding: 0;
+  color: var(--global-theme-color) !important;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  background: transparent !important;
+}
+
+.cv p.location {
+  margin: 0.35rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: normal;
+}
+
+@media (max-width: 767px) {
+  .cv .date-column,
+  .cv .date-column + div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .cv .date-column {
+    padding: 0 0 0.65rem;
+  }
+
+  .cv .date-column table,
+  .cv .date-column tbody,
+  .cv .date-column tr {
+    display: block;
+    width: 100%;
+  }
+
+  .cv .date-column td {
+    display: inline-block;
+    margin-right: 0.75rem;
+  }
+}

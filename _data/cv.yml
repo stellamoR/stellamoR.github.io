@@ -22,8 +22,7 @@ cv:
       - institution: Monash University
         location: Melbourne, Australia
         studyType: Exchange semester
-        start_date: 2025
-        end_date: 2025
+        date: 2025
         highlights:
           - Exchange at a Group of Eight university, supported by a DAAD scholarship.
 
@@ -56,7 +55,7 @@ cv:
 
       - company: Siemens AG, Digital Industries
         position: Dual Study Program in Computer Science
-        location: Germany
+        location: Nuremberg, Germany
         start_date: 2021
         end_date: 2025
         highlights:
@@ -67,37 +66,15 @@ cv:
       - company: DATEV eG
         position: Student Intern in Computer Science
         location: Nuremberg, Germany
-        start_date: 2019
-        end_date: 2019
+        date: 2019
         highlights:
           - Completed an intensive introduction to web interface development with HTML and CSS.
           - Implemented a project website.
 
     Community Involvement:
-      - company: UTN Outdoors Club
-        position: Founder and Organizer
-        location: Nuremberg, Germany
-        start_date: 2025
-        end_date: present
-        highlights:
-          - Founded the first student-led club at UTN.
-          - Organize and lead regular bouldering sessions, hikes, and other outdoor activities.
-
-      - company: Local Protestant Parish
-        position: Volunteer Confirmation Mentor
-        location: Wendelstein, Germany
-        start_date: 2018
-        end_date: 2024
-        highlights:
-          - Organized regular meetings and multi-day youth trips.
-
-      - company: Scouts
-        position: Volunteer Youth Mentor
-        location: Wendelstein, Germany
-        start_date: 2017
-        end_date: 2018
-        highlights:
-          - Supervised and guided younger scouts at camps and meetings.
+      - bullet: "**Founder & Organizer, UTN Outdoors Club** — Nuremberg, Germany (2025–present). Founded UTN's first student-led club and organize regular bouldering sessions, hikes, and other outdoor activities."
+      - bullet: "**Volunteer Confirmation Mentor, Local Protestant Parish** — Wendelstein, Germany (2018–2024). Organized regular meetings and multi-day youth trips."
+      - bullet: "**Volunteer Youth Mentor, Scouts** — Wendelstein, Germany (2017–2018). Supervised and guided younger scouts at camps and meetings."
 
     Skills:
       - name: Programming
