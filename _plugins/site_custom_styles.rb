@@ -7,7 +7,8 @@ inject_system_font = lambda do |document|
   cache_key = document.site.time.to_i
   stylesheet = %(<link rel="stylesheet" href="#{baseurl}/assets/css/site-custom.css?v=#{cache_key}">)
   theme_default = %(<script src="#{baseurl}/assets/js/site-theme-default.js?v=#{cache_key}"></script>)
-  document.output = document.output.sub("</head>", "  #{stylesheet}\n  #{theme_default}\n</head>")
+  document.output = document.output.sub("<head>", "<head>\n  #{theme_default}")
+  document.output = document.output.sub("</head>", "  #{stylesheet}\n</head>")
 end
 
 Jekyll::Hooks.register :pages, :post_render, &inject_system_font
