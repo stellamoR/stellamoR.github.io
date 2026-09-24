@@ -83,9 +83,6 @@ cv:
       - name: Machine Learning
         icon: fa-solid fa-brain
         keywords: "PyTorch, scikit-learn, XGBoost, pandas, classical machine-learning models, deep neural networks"
-      - name: Application Development
-        icon: fa-solid fa-laptop-code
-        keywords: "Mendix, HTML, CSS"
 
     Languages:
       - name: German
