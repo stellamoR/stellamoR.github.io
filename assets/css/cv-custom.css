@@ -1,0 +1,157 @@
+table.table-cv {
+  background-color: transparent !important;
+}
+
+table.table-cv td,
+table.table-cv th {
+  padding: 1px;
+}
+
+p.location {
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+i.iconlocation {
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+}
+
+div.list-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+a.anchor {
+  position: relative;
+  top: -50px;
+  display: block;
+  visibility: hidden;
+}
+
+ul.timeline {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul.timeline li {
+  position: relative;
+  min-height: 2.2rem;
+  color: var(--global-text-color);
+  list-style-position: inside;
+}
+
+ul.timeline li::before {
+  position: absolute;
+  top: -0.5rem;
+  left: 2px;
+  width: 1px;
+  min-height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  content: "";
+  background: var(--global-text-color);
+}
+
+.cv > .card {
+  margin-top: 0 !important;
+  padding: 0 !important;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.cv > .card:first-child {
+  margin-top: 0 !important;
+}
+
+.cv > .card + .card {
+  padding-top: 2rem !important;
+  margin-top: 2rem !important;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.cv .card-title {
+  margin-bottom: 1.25rem;
+}
+
+.cv .list-group {
+  padding-left: 0;
+  list-style: none;
+}
+
+.cv .list-group-item {
+  padding: 0.75rem 0 1.5rem;
+  list-style: none !important;
+  background: transparent;
+  border: 0;
+}
+
+.cv .list-group-item + .list-group-item {
+  padding-top: 1.25rem;
+  border-top: 0;
+}
+
+.cv .list-group-item > .row {
+  align-items: center;
+}
+
+.cv .date-column {
+  flex: 0 0 24%;
+  max-width: 24%;
+  padding-right: 1.25rem;
+  text-align: center !important;
+}
+
+.cv .date-column + div {
+  flex: 0 0 76%;
+  max-width: 76%;
+}
+
+.cv .date-column .badge {
+  min-width: 0 !important;
+  padding: 0;
+  color: var(--global-theme-color) !important;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  background: transparent !important;
+}
+
+.cv .date-column table {
+  margin: 0 auto;
+}
+
+.cv p.location {
+  margin: 0.35rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: normal;
+}
+
+@media (max-width: 767px) {
+  .cv .date-column,
+  .cv .date-column + div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .cv .date-column {
+    padding: 0 0 0.65rem;
+  }
+
+  .cv .date-column table,
+  .cv .date-column tbody,
+  .cv .date-column tr {
+    display: block;
+    width: 100%;
+  }
+
+  .cv .date-column td {
+    display: inline-block;
+    margin-right: 0.75rem;
+  }
+}
