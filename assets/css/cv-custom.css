@@ -146,7 +146,7 @@ ul.timeline li::before {
 }
 
 .cv > .card {
-  margin-top: 2.75rem !important;
+  margin-top: 0 !important;
   padding: 0 !important;
   background: transparent;
   border: 0;
@@ -158,10 +158,14 @@ ul.timeline li::before {
   margin-top: 0 !important;
 }
 
+.cv > .card + .card {
+  padding-top: 2rem !important;
+  margin-top: 2rem !important;
+  border-top: 1px solid var(--global-divider-color);
+}
+
 .cv .card-title {
-  padding-bottom: 0.5rem;
   margin-bottom: 1.25rem;
-  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .cv .list-group {
@@ -171,20 +175,25 @@ ul.timeline li::before {
 
 .cv .list-group-item {
   padding: 0.75rem 0 1.5rem;
+  list-style: none !important;
   background: transparent;
   border: 0;
 }
 
 .cv .list-group-item + .list-group-item {
   padding-top: 1.25rem;
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
+}
+
+.cv .list-group-item > .row {
+  align-items: center;
 }
 
 .cv .date-column {
   flex: 0 0 24%;
   max-width: 24%;
   padding-right: 1.25rem;
-  text-align: left !important;
+  text-align: center !important;
 }
 
 .cv .date-column + div {
@@ -199,6 +208,10 @@ ul.timeline li::before {
   font-size: 0.78rem;
   letter-spacing: 0.02em;
   background: transparent !important;
+}
+
+.cv .date-column table {
+  margin: 0 auto;
 }
 
 .cv p.location {
