@@ -1,0 +1,126 @@
+cv:
+  name: Robin Sternberg
+  label: AI & Robotics M.Sc. Student and Student Research Assistant
+  email: robin.klemens.elias.sternberg@utn.de
+  location: Nuremberg Metropolitan Region, Germany
+  image: ""
+  summary: AI & Robotics master's student researching the integration of artificial intelligence into database systems.
+
+  social_networks:
+    - network: GitHub
+      username: stellamoR
+
+  sections:
+    Education:
+      - institution: University of Technology Nuremberg (UTN)
+        location: Nuremberg, Germany
+        area: AI & Robotics
+        studyType: M.Sc.
+        start_date: 2025
+        end_date: present
+
+      - institution: Monash University
+        location: Melbourne, Australia
+        studyType: Exchange semester
+        start_date: 2025
+        end_date: 2025
+        highlights:
+          - Exchange at a Group of Eight university, supported by a DAAD scholarship.
+
+      - institution: Nuremberg Institute of Technology
+        location: Nuremberg, Germany
+        area: Computer Science
+        studyType: B.Sc.
+        start_date: 2021
+        end_date: 2025
+        score: "1.1 (top 3.2%)"
+        highlights:
+          - Specialized in machine learning.
+          - "Bachelor's thesis: Throughput-time analysis and prediction using machine learning in a manufacturing environment."
+
+      - institution: Gymnasium Wendelstein
+        location: Wendelstein, Germany
+        studyType: Abitur
+        start_date: 2013
+        end_date: 2021
+        score: "1.4"
+
+    Experience:
+      - company: University of Technology Nuremberg (UTN), Data Systems Lab
+        position: Student Research Assistant
+        location: Nuremberg, Germany
+        start_date: 2026
+        end_date: present
+        highlights:
+          - Researching how artificial intelligence can best be integrated into database systems under Prof. Andreas Kipf.
+
+      - company: Siemens AG, Digital Industries
+        position: Dual Study Program in Computer Science
+        location: Germany
+        start_date: 2021
+        end_date: 2025
+        highlights:
+          - Completed work placements during semester breaks, a practical semester, and the bachelor's thesis.
+          - Built manufacturing-focused solutions including a web app integrating a laser engraving machine and an ML-based throughput-time forecast.
+          - Contributed a process improvement with confirmed mid-five-figure savings.
+
+      - company: DATEV eG
+        position: Student Intern in Computer Science
+        location: Nuremberg, Germany
+        start_date: 2019
+        end_date: 2019
+        highlights:
+          - Completed an intensive introduction to web interface development with HTML and CSS.
+          - Implemented a project website.
+
+    Community Involvement:
+      - company: UTN Outdoors Club
+        position: Founder and Organizer
+        location: Nuremberg, Germany
+        start_date: 2025
+        end_date: present
+        highlights:
+          - Founded the first student-led club at UTN.
+          - Organize and lead regular bouldering sessions, hikes, and other outdoor activities.
+
+      - company: Local Protestant Parish
+        position: Volunteer Confirmation Mentor
+        location: Wendelstein, Germany
+        start_date: 2018
+        end_date: 2024
+        highlights:
+          - Organized regular meetings and multi-day youth trips.
+
+      - company: Scouts
+        position: Volunteer Youth Mentor
+        location: Wendelstein, Germany
+        start_date: 2017
+        end_date: 2018
+        highlights:
+          - Supervised and guided younger scouts at camps and meetings.
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, C#, Java, C++"
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, scikit-learn, XGBoost, pandas, classical machine-learning models, deep neural networks"
+      - name: Application Development
+        icon: fa-solid fa-laptop-code
+        keywords: "Mendix, HTML, CSS"
+
+    Languages:
+      - name: German
+        summary: Native
+      - name: English
+        summary: Fluent
+      - name: French
+        summary: B2
+      - name: Chinese
+        summary: HSK 2 / YCT 3
+
+    Interests:
+      - name: Activities
+        icon: fa-solid fa-person-running
+        keywords: "Marathon running, triathlon, bouldering, trekking, guitar"
