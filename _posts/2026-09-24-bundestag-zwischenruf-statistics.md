@@ -15,13 +15,29 @@ categories: projects
   .bundestag-embed iframe {
     display: block;
     width: 100%;
-    min-height: 1100px;
+    min-height: 1200px;
     border: 0;
+  }
+
+  .bundestag-embed--relationships iframe {
+    min-height: 1550px;
+  }
+
+  .bundestag-embed--current iframe {
+    min-height: 760px;
   }
 
   @media (max-width: 576px) {
     .bundestag-embed iframe {
-      min-height: 1250px;
+      min-height: 1400px;
+    }
+
+    .bundestag-embed--relationships iframe {
+      min-height: 1750px;
+    }
+
+    .bundestag-embed--current iframe {
+      min-height: 720px;
     }
   }
 </style>
@@ -32,7 +48,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
 
-<div class="bundestag-embed">
+<div class="bundestag-embed bundestag-embed--timeline">
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=timeline&amp;plot=interruptions-by-party&amp;__theme=light"
     title="Bundestag statistics timeline"
@@ -45,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
 
-<div class="bundestag-embed">
+<div class="bundestag-embed bundestag-embed--relationships">
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=relationships&amp;plot=heatmap&amp;__theme=light"
     title="Bundestag interruption relationships"
@@ -58,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
 
-<div class="bundestag-embed">
+<div class="bundestag-embed bundestag-embed--current">
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=current&amp;plot=daily&amp;__theme=light"
     title="Current Bundestag statistics"
