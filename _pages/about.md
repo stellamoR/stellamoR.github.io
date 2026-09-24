@@ -7,7 +7,7 @@ subtitle: M.Sc. AI & Robotics · Student Research Assistant at UTN
 profile: false
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # contact links are displayed in the footer
 
 announcements:
   enabled: false # includes a list of news items
@@ -20,8 +20,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an **AI & Robotics master's student** and student research assistant at the University of Technology Nuremberg (UTN). At the [Data Systems Lab](https://www.utn.de/en/department/engineering/), I research how artificial intelligence can best be integrated into database systems under Prof. Andreas Kipf.
+Hi there ;) I am an **AI & Robotics master's student** and student research assistant at the University of Technology Nuremberg (UTN). At the [Data Systems Lab](https://www.utn.de/en/department/engineering/), I research how artificial intelligence can best be integrated into database systems under Prof. Andreas Kipf.
 
-Previously, I completed a B.Sc. in Computer Science at Nuremberg Institute of Technology, specializing in machine learning and graduating with a 1.1 GPA (top 3.2%). During my dual study program with Siemens Digital Industries, I worked on manufacturing software, data analytics, and machine-learning projects, including throughput-time prediction and process improvements.
+Previously, I completed a B.Sc. in Computer Science at the University of Applied Sciences Nuremberg, specializing in machine learning and graduating with a 1.1 GPA (top 3.2%). During my dual study program with Siemens Digital Industries, I worked on data analytics, and machine-learning projects in a manufacturing setting, including throughput-time prediction and process improvements.
 
-I also spent an exchange semester at Monash University in Melbourne with support from a DAAD scholarship. Outside university, I founded the UTN Outdoors Club and enjoy marathon running, triathlon, bouldering, trekking, and playing guitar.
+I also spent an exchange semester at Monash University in Melbourne with support from a DAAD scholarship. Outside university, I enjoy the outdoors, race marathons and triathlons, go bouldering, and play the guitar.
