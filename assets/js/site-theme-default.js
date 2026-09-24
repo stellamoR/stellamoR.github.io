@@ -1,0 +1,1 @@
+const savedTheme=localStorage.getItem("theme");["light","dark","system"].includes(savedTheme)||localStorage.setItem("theme","light");
