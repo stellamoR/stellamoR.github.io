@@ -26,6 +26,7 @@ grep -q 'Bundestag — Reden und Zwischenrufe' "${blog_index}"
 grep -q 'embed=1&amp;view=timeline&amp;plot=interruptions-by-party' "${post_page}"
 grep -q 'embed=1&amp;view=relationships&amp;plot=heatmap' "${post_page}"
 grep -q 'embed=1&amp;view=current&amp;plot=daily' "${post_page}"
+test "$(grep -c 'stellamo-bundestag-stats.hf.space' "${post_page}")" -eq 7
 
 if find "${tmp_site}" -type f \( -iname '*.pdf' -o -iname '*.doc' -o -iname '*.docx' \) -print -quit | grep -q .; then
   echo "downloadable CV document found in generated site" >&2
