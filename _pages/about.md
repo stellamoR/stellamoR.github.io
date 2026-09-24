@@ -20,7 +20,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi there ;) I am an **AI & Robotics master's student** and student research assistant at the University of Technology Nuremberg (UTN). At the [Data Systems Lab](https://www.utn.de/en/department/engineering/), I research how artificial intelligence can best be integrated into database systems under Prof. Andreas Kipf.
+Hi there ;) I am an **AI & Robotics master's student** and student research assistant at the University of Technology Nuremberg (UTN). At the [Data Systems Lab](https://www.utn.de/en/departments/department-computer-science-artificial-intelligence/data-systems/), I research how artificial intelligence can best be integrated into database systems under Prof. Andreas Kipf.
 
 Previously, I completed a B.Sc. in Computer Science at the University of Applied Sciences Nuremberg, specializing in machine learning and graduating with a 1.1 GPA (top 3.2%). During my dual study program with Siemens Digital Industries, I worked on data analytics, and machine-learning projects in a manufacturing setting, including throughput-time prediction and process improvements.
 
