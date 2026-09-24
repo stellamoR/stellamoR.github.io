@@ -1,0 +1,14 @@
+:root {
+  --system-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--system-sans) !important;
+}
