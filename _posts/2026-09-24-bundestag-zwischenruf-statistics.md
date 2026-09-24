@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam
 
 <div class="bundestag-embed">
   <iframe
-    src="https://stellamo-bundestag-stats-embed.hf.space/?view=timeline&amp;__theme=light"
+    src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=timeline&amp;__theme=light"
     title="Bundestag statistics timeline"
     loading="lazy"
     allow="clipboard-write"
@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor i
 
 <div class="bundestag-embed">
   <iframe
-    src="https://stellamo-bundestag-stats-embed.hf.space/?view=relationships&amp;__theme=light"
+    src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=relationships&amp;__theme=light"
     title="Bundestag interruption relationships"
     loading="lazy"
     allow="clipboard-write"
@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat
 
 <div class="bundestag-embed">
   <iframe
-    src="https://stellamo-bundestag-stats-embed.hf.space/?view=current&amp;__theme=light"
+    src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=current&amp;__theme=light"
     title="Current Bundestag statistics"
     loading="lazy"
     allow="clipboard-write"

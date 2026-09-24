@@ -23,9 +23,9 @@ for page in "${blog_index}" "${post_page}" "${cv_page}"; do
 done
 
 grep -q 'Bundestag — Reden und Zwischenrufe' "${blog_index}"
-grep -q 'view=timeline&amp;__theme=light' "${post_page}"
-grep -q 'view=relationships&amp;__theme=light' "${post_page}"
-grep -q 'view=current&amp;__theme=light' "${post_page}"
+grep -q 'embed=1&amp;view=timeline&amp;__theme=light' "${post_page}"
+grep -q 'embed=1&amp;view=relationships&amp;__theme=light' "${post_page}"
+grep -q 'embed=1&amp;view=current&amp;__theme=light' "${post_page}"
 
 if find "${tmp_site}" -type f \( -iname '*.pdf' -o -iname '*.doc' -o -iname '*.docx' \) -print -quit | grep -q .; then
   echo "downloadable CV document found in generated site" >&2
