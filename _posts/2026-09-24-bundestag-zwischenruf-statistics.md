@@ -17,6 +17,7 @@ categories: projects
     width: 100%;
     min-height: 630px;
     border: 0;
+    transition: height 180ms ease;
   }
 
   .bundestag-embed--controls-open iframe {
@@ -136,3 +137,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reprehenderit in volupt
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+
+<script>
+  (() => {
+    const spaceOrigin = "https://stellamo-bundestag-stats.hf.space";
+
+    window.addEventListener("message", (event) => {
+      if (event.origin !== spaceOrigin || event.data?.type !== "bundestag-embed-height") return;
+
+      const height = Number(event.data.height);
+      if (!Number.isFinite(height) || height < 300 || height > 2200) return;
+
+      const iframe = [...document.querySelectorAll(".bundestag-embed iframe")].find(
+        (candidate) => candidate.contentWindow === event.source,
+      );
+      if (!iframe) return;
+
+      iframe.style.minHeight = "0";
+      iframe.style.height = `${height}px`;
+    });
+  })();
+</script>
