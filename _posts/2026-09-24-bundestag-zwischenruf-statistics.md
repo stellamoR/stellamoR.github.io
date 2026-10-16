@@ -53,7 +53,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=timeline&amp;plot=interruptions-by-party&amp;start_year=1991&amp;end_year=2026&amp;controls=closed&amp;__theme=light"
     title="Bundestag statistics timeline"
-    loading="lazy"
     allow="clipboard-write"
   ></iframe>
 </div>
@@ -66,7 +65,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor i
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=timeline&amp;plot=sentences-total&amp;start_year=2000&amp;end_year=2026&amp;controls=hidden&amp;__theme=light"
     title="Bundestag spoken sentences timeline"
-    loading="lazy"
     allow="clipboard-write"
   ></iframe>
 </div>
@@ -79,7 +77,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=timeline&amp;plot=interruptions-share&amp;start_year=2010&amp;end_year=2026&amp;normalize=1&amp;controls=closed&amp;__theme=light"
     title="Bundestag interruption party shares"
-    loading="lazy"
     allow="clipboard-write"
   ></iframe>
 </div>
@@ -92,7 +89,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor incididunt ut la
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=relationships&amp;plot=heatmap&amp;period=21&amp;parties=CDU%2FCSU%2CSPD%2CGR%C3%9CNE%2CAfD%2CDIE%20LINKE&amp;show_values=1&amp;controls=open&amp;__theme=light"
     title="Bundestag interruption heatmap"
-    loading="lazy"
     allow="clipboard-write"
   ></iframe>
 </div>
@@ -105,7 +101,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna aliqua ut enim ad
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=relationships&amp;plot=interruptions-by-party&amp;period=20&amp;normalize_seats=1&amp;controls=closed&amp;__theme=light"
     title="Bundestag interruptions by party"
-    loading="lazy"
     allow="clipboard-write"
   ></iframe>
 </div>
@@ -118,7 +113,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis nostrud exercitati
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=current&amp;plot=daily&amp;controls=hidden&amp;__theme=light"
     title="Current Bundestag daily statistics"
-    loading="lazy"
     allow="clipboard-write"
   ></iframe>
 </div>
@@ -131,7 +125,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reprehenderit in volupt
   <iframe
     src="https://stellamo-bundestag-stats.hf.space/?embed=1&amp;view=current&amp;plot=party-share&amp;controls=hidden&amp;__theme=light"
     title="Current Bundestag party shares"
-    loading="lazy"
     allow="clipboard-write"
   ></iframe>
 </div>
